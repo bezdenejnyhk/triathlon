@@ -1,0 +1,8 @@
+.bicycles__container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+    max-height: fit-content;
+    margin-bottom: 53.81px;
+}

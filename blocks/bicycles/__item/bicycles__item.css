@@ -1,0 +1,8 @@
+.bicycles__item {
+    list-style-type: none;
+    margin-left: 40px;
+}
+
+.bicycles__item:first-of-type {
+    margin-left: 0;
+}

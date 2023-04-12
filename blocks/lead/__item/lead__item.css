@@ -1,0 +1,14 @@
+.lead__item {
+    background-image: url(../../../images/lead-item.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #F4F4F4;
+    width: 440px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.44);
+    position: sticky;
+    top: 347px;
+    bottom: 0;
+}

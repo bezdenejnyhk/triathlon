@@ -1,0 +1,20 @@
+.lead__caption {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #151515;
+    padding-top: 167px;
+    padding-bottom: 209px;
+    margin: 0;
+    display: block;
+}
+
+.lead__caption::after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 2px;
+    border-left: 132px solid #D7D4D4;
+    margin-left: 30px;
+}

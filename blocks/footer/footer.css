@@ -1,0 +1,7 @@
+.footer {
+    background: #EFEFEF;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 80px 120px 60px;
+}

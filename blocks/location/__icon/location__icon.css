@@ -1,0 +1,13 @@
+.location__icon {
+    position: relative;
+}
+
+.location__icon::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 16px;
+    width: 100px;
+    height: 40px;
+    background-image: url(../../../images/location-icon.svg);
+}

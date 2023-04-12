@@ -1,0 +1,7 @@
+.bicycles__gap {
+    margin-right: 30px;
+}
+
+.bicycles__gap:last-child {
+    margin-right: 0;
+}

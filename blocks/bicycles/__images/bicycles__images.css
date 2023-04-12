@@ -1,0 +1,10 @@
+.bicycles__images {
+    list-style-type: none;
+    max-width: 380px;
+    max-height: 446.19px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}

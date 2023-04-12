@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Anastasia Kosataya & Ksenia Yakovleva">
+    <meta name="description" content="Проект представляет собой одностраничный сайт с подробным описанием различных видов велосипедов, предназначеных для всех видов катания и покрытия">
+    <title>Обзор велосипедов</title>
+    <link rel="stylesheet" href="./pages/index.css">
+</head>
+<body class="page">
+    <header class="header">
+        <nav class="header__menu">
+            <ul class="header__links">
+                <li class="header__item"><a class="header__link" href="#">Покрытия и&nbsp;градиенты</a></li>
+                <li class="header__item"><a class="header__link" href="#">Велосипеды</a></li>
+                <li class="header__item"><a class="header__link" href="#">Тренировки</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="content">
+        <section class="lead">
+            <h1 class="lead__title">Шоссе, ТТ&nbsp;и&nbsp;Грэвел</h1>
+            <div class="lead__content">
+                <p class="lead__text">Триатлонные старты, горные серпантины или грейвел заезды по&nbsp;живописным маршрутам&nbsp;&mdash; нужно только определиться с&nbsp;выбором велосипеда и&nbsp;отправиться в&nbsp;путь.</p>
+                <button class="lead__button" type="button">Подробнее</button>
+                <p class="lead__caption">Cannondale Systemsix</p>
+            </div>
+            <div class="lead__image-container">
+                <img class="lead__image" src="./images/lead-image.jpg" alt="Дорога с велосипедистом на фоне леса и гор" loading="eager" width="610" height="836">
+            </div>
+            <div class="lead__item-container">
+                <div class="lead__item"></div>
+            </div>
+        </section>
+        <section class="quotation" aria-label="Секция с цитатой">
+            <img class="quotation__image" src="./images/quote-image.jpg" alt="Дорога с велосипедистом на фоне скандинавской деревушки" loading="lazy" width="650" height="460">
+            <blockquote class="quotation__content">
+                <p class="quotation__text">&laquo;Катайся много или мало, долго или коротко, как хочешь&nbsp;&mdash; но&nbsp;катайся&raquo;</p>
+                <div class="quotation__author">
+                    <p class="quotation__author-name">Эдди Меркс</p>
+                    <p class="quotation__author-job">Велогонщик</p>
+                </div>
+            </blockquote>
+        </section>
+        <section class="location">
+            <h2 class="location__title">Шоссе</h2>
+            <p class="location__text">На&nbsp;шоссейном велосипеде можно ездить по&nbsp;асфальту на&nbsp;разных градиентах: будь&nbsp;то горы или равнины. Гонки проходят в&nbsp;командном пелотоне, но&nbsp;тренироваться можно и&nbsp;самостоятельно.</p>
+            <ul class="location__images">
+                <div class="location__icon"><li class="location__item"><img class="location__image" src="./images/location-image1.jpg" alt="Асфальтированная дорога в горах" loading="lazy" width="650" height="400"></li></div>
+                <li class="location__item"><img class="location__image" src="./images/location-image2.jpg" alt="Велосипедист в лесу" loading="lazy" width="650" height="400"></li>
+            </ul>
+        </section>
+        <section class="bicycles">
+            <div class="bicycles__container">
+                <h2 class="bicycles__title">Велосипеды</h2>
+                <ul class="bicycles__menu">
+                    <li class="bicycles__item"><a class="bicycles__link" href="#">Шоссе</a></li>
+                    <li class="bicycles__item"><a class="bicycles__link" href="#">Грэвел</a></li>
+                    <li class="bicycles__item"><a class="bicycles__link" href="#">TT</a></li>
+                </ul>
+            </div>
+            <ul class="bicycles__images">
+                <li class="bicycles__gap"><a class="bicycles__caption" href="https://www.sigmasports.com/item/Cervelo/Caledonia-5-Ultegra-Disc-Road-Bike-2021/RDEN" target="_blank"><img class="bicycles__image" src="./images/Cervelo Caledonia-5.png" alt="Pазновидность велосипеда" loading="lazy">Cervelo Caledonia-5</a></li>
+                <li class="bicycles__gap"><a class="bicycles__caption" href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J" target="_blank"><img class="bicycles__image" src="./images/Cannondale Systemsix Himod.jpg" alt="Pазновидность велосипеда" loading="lazy">Cannondale Systemsix Himod</a></li>
+                <li class="bicycles__gap"><a class="bicycles__caption" href="https://www.sigmasports.com/item/Trek/Domane-SL-7-Force-eTap-AXS-Disc-Road-Bike-2021/RULF" target="_blank"><img class="bicycles__image" src="./images/Trek Domane SL-7.jpg" alt="Pазновидность велосипеда" loading="lazy">Trek Domane SL-7</a></li>
+            </ul>
+        </section>
+        <section class="training">
+            <div class="training__content">
+                <h2 class="training__title">Тренировки</h2>
+                <p class="training__text">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а&nbsp;записать эти тренировки поможет приложение Strava, а&nbsp;также это приложение позволит построить тренировочный план.</p>
+                <ul class="training__links">
+                    <li class="training__item"><a class="training__link" href="https://www.strava.com" target="_blank">Strava</a></li>
+                    <li class="training__item"><a class="training__link" href="https://www.komoot.com" target="_blank">Komoot</a></li>
+                </ul>
+            </div>
+            <img class="training__image" src="./images/Placeholder.jpg" alt="Тренировочная дорожка" loading="lazy">
+        </section>
+    </main>
+    <footer class="footer">
+        <h3 class="footer__title">Подпишитесь на&nbsp;рассылку &mdash;</h3>
+        <input type="email" class="footer__email" placeholder="Ваш e-mail">
+        <p class="footer__copyright">&copy;&nbsp;Road Club 2022</p>
+    </footer>
+</body>
+</html>

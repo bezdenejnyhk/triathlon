@@ -1,0 +1,7 @@
+.lead {
+    display: grid;
+    grid-template-columns: 1fr 610px;
+    padding: 20px 0 0 120px;
+    column-gap: 250px;
+    max-width: 100%;
+}

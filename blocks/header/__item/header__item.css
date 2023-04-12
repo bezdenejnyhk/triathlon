@@ -1,0 +1,8 @@
+.header__item {
+    list-style-type: none;
+    padding: 28px 34px 28px 0;
+}
+
+.header__item:last-of-type {
+    padding-right: 120px;
+}
