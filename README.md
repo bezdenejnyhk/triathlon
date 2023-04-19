@@ -17,4 +17,4 @@
 
 **Ссылка на GitHub Pages**
 
-Ссылка на GitHub Pages:
+Ссылка на GitHub Pages: https://bezdenejnyhk.github.io/triathlon
